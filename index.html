@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Semantics</title>
     <link href="style.css" rel="stylesheet">
+    <link href="normalize.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -18,7 +19,7 @@
 
     <img src="https://cdn-images-1.medium.com/max/1000/1*2PCmLZyzQaF2pyKYkSTFpA.jpeg" alt="A men who is spraying a corridor with a fire extinguisher">
 
-    <p> Preamble</p>
+    <h3> Preamble</h3>
 
     <ul>
         <li>Read this once (if you are not able to click <a href="https://www.starfall.com/h/ltr-classic/" target="_blank" title="This is a little joke">here</a>)</li>
@@ -28,25 +29,25 @@
 
     <section>
         <h4> The story</h4>
-        <p class="Good">
-            Once upon a time there was a Chinese farmer whose horse ran away. That evening, all of his neighbors came around to commiserate. They said, <q> “We are so sorry to hear your horse has run away. This is most unfortunate.”</q> The farmer said, <q>“Maybe.”</q> The next day the horse came back bringing seven wild horses with it, and in the evening everybody came back and said, <q>“Oh, isn’t that lucky. What a great turn of events. You now have eight horses!” </q>The farmer again said, <q>“Maybe.”</q> 
+        <p>
+            Once upon a time there was a Chinese farmer whose horse ran away. That evening, all of his neighbors came around to commiserate. They said,</p> <q class="villagers"> <i>We are so sorry to hear your horse has run away. This is most unfortunate.</i></q> <p>The farmer said, </p><q class="farmer"><i>Maybe.</i></q><p> The next day the horse came back bringing seven wild horses with it, and in the evening everybody came back and said,</p> <q class="villagers"><i>Oh, isn’t that lucky. What a great turn of events. You now have eight horses! </i></q><p>The farmer again said,</p> <q class="farmer"><i>Maybe.</i></q> <p>
 
-            The following day his son tried to break one of the horses, and while riding it, he was thrown and broke his leg. The neighbors then said, <q>“Oh dear, that’s too bad,” </q>and the farmer responded, <q>“Maybe.” </q>The next day the conscription officers came around to conscript people into the army, and they rejected his son because he had a broken leg. Again all the neighbors came around and said, <q>“Isn’t that great!” </q>Again, he said, <q>“Maybe.”</q>
+            The following day his son tried to break one of the horses, and while riding it, he was thrown and broke his leg. The neighbors then said, </p><q class="villagers"><i>Oh dear, that’s too bad, </i></q><p>and the farmer responded, </p><q class="farmer"><i>Maybe.</i> </q><p>The next day the conscription officers came around to conscript people into the army, and they rejected his son because he had a broken leg. Again all the neighbors came around and said,</p> <q class="villagers"><i>Isn’t that great! </i></q><p>Again, he said,</p> <q class="farmer"><i>Maybe.</i></q>
             
-            The whole process of nature is an integrated process of immense complexity, and it’s really impossible to tell whether anything that happens in it is good or bad — because you never know what will be the consequence of the misfortune; or, you never know what will be the consequences of good fortune.
+            <p>The whole process of nature is an integrated process of immense complexity, and it’s really impossible to tell whether anything that happens in it is </p><i class="Good">good</i> or <i class="Bad">bad</i><p> — because you never know what will be the consequence of the misfortune; or, you never know what will be the consequences of good fortune.
         
-        </br> Alan Watts
+         <br>Alan Watts
         </p>
     </section>
 
     <hr>
 
-    <caption> Here is this dialog in the form of a table</caption>
+    <h4> Here is this dialog in the form of a table</h4>
 
     <table>
         <tr>
             <td>Event</td>
-            <td class="Good">Good or bad ?</td>        
+            <td><i class="Good">Good</i> or <i class="Bad">bad</i> ?</td>        
         </tr>
         <tr>
             <td>Lose a horse</td>
@@ -76,6 +77,10 @@
     </section>
 
     <hr>
+
+    <aside class="notification">
+        <p>Vous avez un nouveau message!</p>
+    </aside>
 
     <footer>
         <p>

@@ -2,9 +2,15 @@ body{
     width:90%;
     margin-left: auto;
     margin-right: auto;
+    /*background-image: linear-gradient( #F8AD51, #ffffff);*/
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom  right ;
+    background-size: cover;
+    margin-left:20px;
 }
 p{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Open-Sans;
     letter-spacing: 1px;
     font-size: 15px;
     color: #696969;
@@ -20,9 +26,59 @@ a:hover{
 }
 q{
     font-size: 160%;
-    background-color: #F0F0F0;
+    background-color: #d8d8d8;
     border-left: 3px dashed black;
     padding-left: 30px;
     margin-top: 80px;
     margin-bottom: 80px;
+ 
 }
+q.villagers{
+    border-left: 3px dashed blue;
+}
+q.farmer{
+    border-left: 3px dashed black;
+}
+header>h3{
+    background-color: yellow;
+}
+ i.Good{
+    text-transform: capitalize;
+    color:green;
+    font-style: normal;
+}
+i.Bad{
+    text-transform: capitalize;
+    color:red;
+    font-style: normal;
+}
+table tr:nth-child(2n+3){
+    background-color: lightgrey;
+    }
+table tr:nth-child(2n+2){
+    background-color:whitesmoke;
+}
+body p:first-child{
+    font-weight: bold;
+    
+}
+img{
+    float:right;
+    margin-left: 30px;
+    width:50%;
+}
+.notification{
+    background:#FFFFDD;
+    padding:.5rem 1rem;
+    border:3px solid #DDDDCC;
+    width:250px;
+    font-weight:bold;
+    color: #333300;
+    position:fixed ;
+    bottom: 0;
+    right: 0;
+    
+  }
+
+  
+  
