@@ -1,0 +1,28 @@
+body{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+    color: #696969;
+}
+a{
+    color: #6495ED;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color :blue;
+}
+q{
+    font-size: 160%;
+    background-color: #F0F0F0;
+    border-left: 3px dashed black;
+    padding-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
